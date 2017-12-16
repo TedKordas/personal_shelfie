@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS bins;
+
+CREATE TABLE IF NOT EXISTS bins (
+bin_id INTEGER,
+shelf_id TEXT NOT NULL,
+name TEXT NOT NULL,
+price NUMERIC(7, 2) NOT NULL
+);
