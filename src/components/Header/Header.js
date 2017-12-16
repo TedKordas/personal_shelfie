@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div className='Header'>
         <div className='Header-content'>
-          <img className='Header-logo' src={ logo } alt="DevMountain Logo"/>
+          <img src={ logo } alt="DevMountain Logo"/>
           <span className='Header-text'>SHELFIE</span>
         </div>
       </div>

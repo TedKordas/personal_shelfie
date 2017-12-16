@@ -1,10 +1,23 @@
 .Header {
   background-color: #AB2A19;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Header .Header-text {
+.Header-content {
   color: white;
   font-size: xx-large;
   font-weight: 700;
+  position: relative;
+  display: inline-block;
+  left: -150px;
+}
+
+.Header-content > img {
+  height: 50px;
+  margin-right: 10px;
+  position: relative;
+  top: 13px;
 }
