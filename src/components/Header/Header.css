@@ -1,0 +1,10 @@
+.Header {
+  background-color: #AB2A19;
+  height: 100px;
+}
+
+.Header .Header-text {
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+}
