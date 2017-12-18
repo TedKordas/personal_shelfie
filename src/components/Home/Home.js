@@ -14,10 +14,11 @@ export default class Home extends Component {
   render() {
     const { shelves } = this.state
     let shelf = shelves.map((el, i) => 
-      <Link to={`/bins/${el}`} key={i}>
-        <div className='Home-shelf-container'>
-        <span>Shelf {el}</span></div>
-      </Link> );
+      <div className='Home-shelf-container'>
+        <Link to={`/bins/${el}`} key={i}>
+          <span>Shelf {el}</span>
+        </Link>
+      </div> )
     return (
       <div className='Home-shelves-container'>
         <Route exact path="/" render={() => shelf }/>
