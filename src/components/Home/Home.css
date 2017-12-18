@@ -1,0 +1,25 @@
+.Home-shelves-container {
+  position: relative;
+  left: -100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.Home-shelves-container a {
+  text-decoration: none;
+}
+
+.Home-shelf-container {
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #D34735;
+}
+
+.Home-shelf-container span {
+  /* text-decoration: none; */
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+}
